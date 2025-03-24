@@ -9,5 +9,5 @@ def driver():
     driver.quit()
 
 def test_google_title(driver):
-    driver.get("https://www.google.com")
+    driver.get("https://www.tamusa.edu")
     assert "Google" in driver.title, "Title does not contain 'Google'"
